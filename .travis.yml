@@ -33,7 +33,7 @@ env:
   # OSC_CREDENTIALS are kept secret
   # In order to update them, run:
   #   travis encrypt OSC_CREDENTIALS=user:password
-  # more info at: http://docs.travis-ci.com/user/environment-variables/#Secure-Variables
+  # more info at: https://docs.travis-ci.com/user/environment-variables/#Encrypted-Variables
   - OBS_REPO=Virtualization:containers:Portus
   - OBS_BRANCH=master
   - secure: "Umlxpe6wARqVCB4MmQj9MpjGy7Q8odYEohwi4kxOj2hp/uCrqrl1HIoAd7mgB0ylpcbri5HVuBg4EpBoT5VC4NYILnSRPxr3dvHcsK8K7ZO3fuxHnQ666s8P19NSVmDf+K0mlHKv5J6dKIPTFIO1e1Ynbbj97CPo4b2mUJjPq/g="
